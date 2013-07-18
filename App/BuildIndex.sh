@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-for i in $(ls)
+for i in $(ls *.app)
 do 
 
 	echo "<a href=\"https://mutek.github.io/page/App/"$i"\" class=\"btn\">$i</a>" >> body.html
