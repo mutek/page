@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+echo "" > body.html
+
 for i in $(ls *.app)
 do 
 
