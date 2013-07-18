@@ -29,7 +29,7 @@ echo "Eseguo la finalizzazione dei cambiamenti in locale"
 git commit -a -m "$n"
 
 echo "Invio i cambiamenti locali al deposito remoto..."
-git push origin gh-pages
+git push origin master
 echo "ok"
 
 
